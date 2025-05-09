@@ -20,8 +20,11 @@ public class IntegerToRomanTest {
         assertEquals("VIII", IntegerToRoman.convert(8));
         assertEquals("IX", IntegerToRoman.convert(9));
         assertEquals("X", IntegerToRoman.convert(10));
-	assertEquals("XV", IntegerToRoman.convert(15));
+	    assertEquals("XV", IntegerToRoman.convert(15));
         assertEquals("XIX", IntegerToRoman.convert(19));
         assertEquals("XX", IntegerToRoman.convert(20));
+        assertEquals("XXX", IntegerToRoman.convert(30));
+        assertEquals("XL", IntegerToRoman.convert(40));
+        assertEquals("L", IntegerToRoman.convert(50));
     }
 }
